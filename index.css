@@ -1,0 +1,180 @@
+body {
+    font-family: "Poppins";
+    font-size: 16px;
+    background-image: url("favicon32x32.png");
+    
+}
+
+.desktop {
+    display:inline-flex;
+    max-width: 1440px;
+    background-color:  hsl(0, 100%, 74%);
+    background-image: url("bg-intro-desktop.png");
+    align-items: center;
+    margin: 5%;
+    padding: 5%;
+}
+
+.left-container {
+    width: 50%;
+    margin-left: 10%;
+}
+
+.left-content {
+    width: 88%;
+
+}
+
+.right-container {
+    width: 50%;
+    margin-right: 5%;
+    margin-left: 5%;
+    
+}
+
+.right-content {
+  width: 90%;
+    
+}
+.heading {
+    font-weight: 700;
+    color: white;
+    font-size: 19px;
+}
+
+.paragraph {
+    color: white;
+}
+
+.banner {
+    color: white;
+    background-color: hsl(248, 32%, 49%);
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 5%;
+    box-shadow: 0px 5px 10px hsl(249, 10%, 26%);
+}
+.trial{
+    font-weight: 700;
+}
+.form-container {
+   
+    width: 100%;
+}
+
+form {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+input {
+    color: hsl(249, 10%, 26%);
+    font-family: "Poppins";
+    font-weight: 600;
+    width: 80%;
+}
+
+input[type=text]{
+    width: 80%;
+    padding: 15px 20px;
+    margin: px 0;
+    border-radius: 10px;
+    margin-bottom: 5px;
+
+}
+
+input[type=email] {
+    width: 80%;
+    padding: 15px 20px;
+    margin: 1px 0;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+input[type=submit] {
+    width: 90%;
+    padding: 15px 20px;
+    margin: 1px 0;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+input[type=submit] {
+    color: white;
+    background-color: hsl(154, 59%, 51%);
+    margin-top: 5%;
+    box-shadow: 0px 5px 10px hsl(249, 10%, 26%);
+}
+
+.price {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.terms {
+    color: red;
+    font-size: 10px;
+}
+
+.agree {
+    margin-top: 0;
+    font-size: 10px;
+}
+
+
+    
+
+
+@media (max-width: 375px) {
+
+    .desktop {
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+
+    .left-container {
+        width: 100%;
+    }
+
+    .left-content {
+        
+    }
+
+    .right-container {
+        width: 100%;
+    }
+
+    .right-content {
+        
+    }
+    .heading {
+        
+    }
+
+    .paragraph {
+        
+    }
+
+    .banner {
+        
+    }
+    .form-container {
+        
+    }
+
+    form {
+
+    }
+}
+
+@media (min-width: 1440px) {
+    body {
+        background-image: url('favicon-32x32.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+}
